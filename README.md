@@ -1,8 +1,11 @@
 # Dapr integration with events published by non dapr enabled legacy systems
 Dapr enabled grpc service listening for events published by legacy (non-dapr-enabled) systems, so that:
-1.Events are not serialized as json
+
+1. Events are not serialized as json
+
 and/or
-2.Events are not wrapped in cloudevents envelope
+
+2. Events are not wrapped in cloudevents envelope
 
 This projects uses RabbitMq as pubsub component.
 
